@@ -15,7 +15,7 @@ namespace CoreBot.DataBaseEF
             void Main(string connection)
             {
                 string connectionString =
-                    "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)" +
+                    "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCgOL=TCP)" +
                     "(HOST=MYHOST)(PORT=1527))(CONNECT_DATA=(SID=MYSERVICE)));" +
                     "User Id=MYUSER;Password=MYPASS;";
                 string provider =
